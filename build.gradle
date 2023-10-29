@@ -25,7 +25,8 @@ dependencies {
 //    TODO add once it is needed
 //    implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    implementation 'org.springframework.boot:spring-boot-starter-security'
+//    TODO add once it is needed
+//    implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.springframework.boot:spring-boot-starter-web'
 //    TODO add once it is needed
 //    implementation 'org.flywaydb:flyway-core'
@@ -34,7 +35,8 @@ dependencies {
     runtimeOnly 'org.postgresql:postgresql'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    testImplementation 'org.springframework.security:spring-security-test'
+//    TODO add once it is needed
+//    testImplementation 'org.springframework.security:spring-security-test'
 }
 
 tasks.named('test') {
