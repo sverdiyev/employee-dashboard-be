@@ -2,9 +2,7 @@ package com.boiz.employeedashboardbe.employees.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.OneToOne;
 import java.util.UUID;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -16,12 +14,13 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class Employee {
+public class Address {
 
   @Id
-  @GeneratedValue(strategy = GenerationType.UUID)
+  @GeneratedValue
   private UUID id;
-  private String name;
-  @OneToOne
-  private Address address;
+  private String postalCode;
+  private String street;
+  private String city;
+
 }
