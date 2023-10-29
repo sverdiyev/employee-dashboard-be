@@ -23,4 +23,10 @@ public class Employee {
   private String name;
   private String address;
   private String description;
+
+  public Employee(String name, String address, String description) {
+    this.name = name;
+    this.address = address;
+    this.description = description;
+  }
 }
