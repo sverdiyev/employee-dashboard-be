@@ -37,6 +37,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 //    TODO add once it is needed
 //    testImplementation 'org.springframework.security:spring-security-test'
+    implementation 'com.google.maps:google-maps-services:2.2.0'
 }
 
 tasks.named('test') {
