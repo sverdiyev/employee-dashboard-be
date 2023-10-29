@@ -5,3 +5,6 @@ spring:
     username: dbuser
   jpa:
     generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
