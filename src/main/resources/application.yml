@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5555/postgres
+    password: pass
+    username: dbuser
