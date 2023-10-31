@@ -25,6 +25,6 @@ public class Address {
   private String street;
   private String city;
   private Double lat;
-  private Double Long;
+  private Double lng;
 
 }
